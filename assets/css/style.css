@@ -1,0 +1,1218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+.hero-section{
+    background: url(..//images/Slice\ 1\ \(2\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+.hero-section nav ul li{
+    list-style: none;
+}
+.hero-section nav h1{
+    color: #fff;
+}
+.hero-section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.hero-section nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+.hero-section nav ul li{
+    padding: 10px;
+    
+}
+.hero-section nav ul li i{
+    color: #fff;
+}
+.hero-section nav ul li a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.hero-section nav .contact{
+    padding: 10px 30px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+}
+
+/*bannar area works start here-------------------
+---------------------------------------------------------------*/
+.banner{
+    width: 100%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ban-grid{
+    width: 80%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 100px;
+}
+.ban-grid .content{
+    height: 400px;
+    background-color: transparent;
+    padding-top: 10%;
+}
+.ban-grid .image{
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.ban-grid .image .uper-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    
+}
+.ban-grid .image .uper-image img{
+    width: 45%;
+    height: 55%;
+    
+}
+.image img{
+    width: 70%;
+    height: 80%;
+}
+
+.ban-grid .content h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20%;
+}
+.ban-grid .content h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+.ban-grid .content span{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+}
+.ban-grid .content p{
+    color: rgba(255,255,255,.5);
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5%;
+    padding-bottom: 20px;
+}
+
+.ban-grid .content button{
+    padding: 10px 20px;
+    background:  linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    
+}
+.ban-grid .content .bnnnn-con-but{
+    background: transparent;
+    border: 2px solid #fff;
+    margin-left: 8%;
+}
+
+/*responsive nav bar----------------------
+----------------------------------------------------------*/
+.slidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: #06052F;
+    position: fixed;
+    float: right;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+}
+.slidebar ul{
+    flex-direction: column;
+    padding: 0;
+}
+.slidebar ul {
+    justify-content: space-around;
+}
+.slidebar h1{
+    font-size: 25px;
+}
+.fa-bars{
+    color: black;
+    font-size: 25px;
+}
+.slide-head-icon li{
+    padding: 0;
+}
+
+.fa-bars{
+    display: none;
+}
+
+
+/*services ection start here-----
+----------------------------------------------------------------*/
+.services-section{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    background-color: #06052F;
+    padding-top: 100px;
+}
+.service-h1{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -1.6px;
+
+}
+.service-p{
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.services-section .ser-show-sect{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-section .ser-show-sect .ser-grid-sect{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    width: 80%;
+    padding-bottom: 20px;
+    
+}
+.services-section .ser-show-sect .ser-grid-sect div{
+   /* background-color: green;*/
+    height: fit-content;
+}
+
+.services-section .ser-show-sect1111{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.services-section .ser-show-sect1111 .ser-grid-sect1111{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    width: 80%;
+    
+}
+.services-section .ser-show-sect1111 .ser-grid-sect1111 div{
+   /* background-color: green;*/
+    height: fit-content;
+
+}
+
+.services-icon-content{
+    display: flex;
+   
+}
+.services-icon-content i{
+  padding: 20px;
+  padding-bottom: 20px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: #be63f9;
+  background-color: rgba(190, 99, 249, 0.15);
+  margin-top: 5px;
+}
+.services-icon-content h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: -1.6px;
+    margin-left: 10px;
+}
+.services-icon-content p{
+    color: rgba(255,255,255,.5);
+    margin-left: 10px;
+}
+.services-icon-content .ser-c a{
+    color: rgba(255,255,255,.5);
+    margin-left: 10px;
+}
+.bottom-srvices-icon{
+    padding-right: 10px;
+}
+.services-icon-content .fa-arrow-up-from-ground-water{
+    color: #26c6da;
+    background-color: rgba(38, 198, 218, 0.15);
+}
+.services-icon-content .fa-gears{
+    background-color: rgba(252, 87, 59, 0.15);
+    color: #fc573b;
+}
+.services-icon-content .fa-gamepad{
+    background-color: rgba(52, 255, 146, 0.15);
+    color: #34FF92;
+}
+.services-icon-content .fa-envelope{
+    background-color: rgba(255, 210, 0, 0.15);
+    color: #ffd200;
+}
+.services-icon-content .fa-people-group{
+    background-color: rgba(255, 157, 69, 0.15);
+    color: #ff9d45;
+}
+
+/* grow bussines section start here---------------------------
+-----------------------------------------------*/
+.grow-section{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #06052F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grow-section .grow-grid{
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 50px;
+}
+.grow-section .grow-grid div{
+   /* background-color: #ff9d45;*/
+    height: fit-content;
+}
+.grow-section .grow-grid .imaggggg{
+    height: 500px;
+}
+.imaggggg img{
+    width: 100%;
+    height: 100%;
+}
+.grow-section .grow-grid .heading{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -1.6px;
+}
+ul li{
+    list-style: none;
+}
+.grow-section .grow-grid .parag{
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    padding-top: 20px;
+}
+.grow-section .grow-grid ul{
+    display: flex;
+}
+.grow-section .grow-grid ul li{
+    padding: 10px;
+}
+.grow-section .grow-grid ul li h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: -1.6px;
+}
+.grow-section .grow-grid ul li p{
+    color: #fff;
+    
+}
+.grow-section .grow-grid ul li i{
+    margin-top: 12px;
+    color: #be63f9;
+}
+.grow-grid .cent{
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+.bettun{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+/*pricing section start here----------------
+---------------------------------------------------------------*/
+
+.ticket-section{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color:  #06052F;
+
+}
+
+.tic-section{
+    width: 100%;
+    padding-top: 50px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket-grid{
+    width: 60%;
+   
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 40px;
+}
+.tecket{
+   /* height: 550px;*/
+   height: fit-content;
+   padding-bottom: 50px;
+    background-color: #06052F;
+    border-radius: 15px;
+    box-shadow:0px 0px 30px 0px rgba(217, 0, 255, 0.47) ;
+}
+
+
+.tecket h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 30px;
+}
+.tecket p{
+    text-align: center;
+    
+    color: #585663;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tecket .price{
+    font-size: 30px;
+    color: #9693a5;
+
+}
+.tecket span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #be63f9;
+}
+.tecket .price2{
+    font-size: 30px;
+    color: #9693a5;
+
+}
+.tecket .span{
+    color: #26c6da;
+}
+
+/*
+.tecket h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+*/
+.tecket ul li{
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+.tecket .ticket-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tecket button{
+    padding: 10px 60px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: transparent;
+}
+.tecket .pricee2-button{
+    background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+    border: none;
+}
+.ticket-section .bot-parag{
+    text-align: center;
+    margin-top: 5%;
+    color: #9693a5;
+    font-weight: 600;
+}
+.ticket-section .bot-parag span{
+    font-size: 15px;
+    font-weight: 700;
+}
+.ticket-section .bot-parag span a{
+    color: #fff;
+}
+
+
+/*review-------------------section--------------start-------------------here--------------------
+------------------------------------------------------------------------*/
+.review-section{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    background-color: #06052F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-section .review-content{
+    width: 85%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 30px;
+}
+.review-section .review-content div{
+   /* background-color: #be63f9;*/
+   /* height: 350px;*/
+   height: fit-content;
+   padding-bottom: 20px;
+}
+.rev-content h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: -1.6px;
+}
+.rev-content p{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rev-content button{
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+}
+
+.rev-image .rev-parag{
+    color: #9693a5;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+.rev-image h1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.rev-image .rrrr-pp{
+    color: #9693a5;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+.rev-image ul{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.rev-image ul li{
+    padding-left: 20px;
+}
+.rev-image  img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+.rev-image{
+    box-shadow: 0px 0px 30px 0px rgba(217, 0, 255, 0.47);
+}
+
+/*contact-----section-----start------here--------------
+---------------------------------------------------------------
+-------------------------------------------------------------------*/
+
+.contacttt{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 150px;
+    background: #06052F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacttt .contact-content{
+    width: 80%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 50px;
+}
+.contacttt .contact-content .div{
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.contacttt .contact-content .contact-detail .hh1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+.contacttt .contact-content .contact-detail .pppp{
+    color: #9693a5;
+    text-align: center;
+    
+}
+.contacttt .contact-content .contact-detail .phonne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contacttt .contact-content .contact-detail p{
+    color: #9693a5;
+    padding: 0;
+
+}
+
+.contacttt .contact-content .contact-detail h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.contact-detail .phonne i{
+font-size: 40px;
+color: rgba(217, 0, 255, 0.966);
+padding-bottom: 20px;
+}
+.div .center-box{
+    width: 100%;
+    height: fit-content;
+}
+
+.div{
+    box-shadow: 0px 0px 30px 0px rgba(217, 0, 255, 0.47);
+
+}
+.div .headd{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+}
+
+/*contact detail section start here*/
+
+
+/*contact form div work*/
+
+.contact-form{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.inp{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    margin: 3%;
+    border: 1px solid #305534;
+}
+.message{
+    width: 80%;
+    height: 100px;
+    color: #305534;
+}
+
+::placeholder{
+padding-left: 25px;
+color: #305534;
+}
+.message::placeholder{
+    padding-top: 3%;
+}
+select{
+    padding-left: 25px;
+    color: #305534;
+}
+.requestbutton{
+    width: 80%;
+    height: 50px;
+ /*   margin-top: 6%;*/
+
+ 
+    background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+
+/*last------------------section-------------works-------------------start-------------here------------------*/
+.last-section{
+    width: 100%;
+    height: 500px;
+    background: url(../images/Slice\ 1\ \(3\).png)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.akhri-section{
+    width: 70%;
+    height: fit-content;
+}
+.akhri-section h1{
+    font-size: 3.3rem;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: -1.8px;
+    text-align: center;
+    
+}
+.akhri-section p{
+    color: #9693a5;
+    text-align: center;
+    font-size: 1rem;
+}
+.akhri-section button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+}
+.akhri-section div{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/*footer----------------section----------------------start-------------------------here-----------------------*/
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #06052F;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    width: 80%;
+    height: fit-content;
+    gap: 20px;
+}
+/*
+.footer-section div{
+    height: 300px;
+}
+*/
+/*
+.intro img{
+    width: 70%;
+    height: 50px;
+}
+.intro p{
+    color: #f9f9fa;
+    padding-top: 30px;
+}
+*/
+.foot-nav1 h1{
+    font-size: 20px;
+    font-weight: 900px;
+    word-spacing: -1.8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.foot-nav1 ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.foot-nav1 ul li a{
+    color: #9693a5;
+}
+.foot-nav1 ul li a:hover{
+    color: #0000ff;
+    text-decoration: none;
+}
+.foot-contact p{
+    color: #9693a5;
+    padding-left: 5px;
+}
+.foot-contact .parag{
+    padding-top: 10px;
+}
+.foot-contact .phonee{
+    font-size: 15px;
+    font-weight: bold;
+    color: #9693a5;
+}
+
+.upar-text{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #06052F;
+    border-top: 1px solid #9693a5;
+}
+.texxt{
+    width: 40%;
+    text-align: center;
+    padding-top: 20px;
+}
+.texxt h2{
+    color: #9693a5;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.texxt p{
+    font-size: 13px;
+    color: #9693a5;
+}
+
+
+
+/*icon section just logo name*/
+
+.logo-section ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 7px;
+}
+.logo-section ul li i{
+    background: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 136, 15, 0.2);;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 11px;
+    border-radius: 20px;
+    color: #fff;
+    transition: background-color 1s;
+}
+.logo-section ul li i:hover{
+    background-color: #00880f;
+    border: none;
+    color: #fff;
+}
+
+.logo-section .fa-facebook-f:hover{
+    background-color: blue;
+}
+
+.logo-section .fa-instagram:hover{
+    background-color: #E1306C;
+}
+
+.logo-section .fa-linkedin-in:hover{
+    background-color: blue;
+}
+
+.logo-section .fa-youtube:hover{
+    background-color: red;
+}
+
+
+
+  
+
+
+
+/*Responsive screen sizes--------------------
+----------------------------------------------------------------*/
+@media (min-width: 1500px){
+    .ban-grid{
+        width: 82%;
+        gap: 50px;
+    }
+    .ban-grid .content{
+        height: 500px;
+    }
+    .ban-grid .image{
+        height: 500px;
+    }
+    .ban-grid .image .uper-image{
+        width: 100%;
+        height: 100%;
+    }
+    .ban-grid .image .uper-image img{
+        width: 50%;
+        height: 60%;
+        
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
+@media (max-width: 1355px){
+    .hero-section{
+       
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+    .ban-grid{
+        height: fit-content;
+       
+    }
+    .banner{
+        width: 100%;
+        height: fit-content;
+       
+    }
+   
+    .ban-grid .content{
+        height: fit-content;
+        background-color: transparent;
+    }
+    .ban-grid .image{
+        height: 500px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .ban-grid .content h1{
+        left: 0;
+        font-size: 2.5rem;
+    }
+    .ban-grid .content p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1209px){
+    
+    
+    .hero-section nav button{
+        display: none;
+    }
+    
+    .ban-grid{
+        gap: 150px;
+    }
+    .hero-section nav .hider{
+        display: none;
+    }
+    
+    .hero-section nav ul .fa-bars{
+        display: flex;
+    }
+    .slidebar{
+        width: 400px;
+        height: 100vh;
+        background-color: #06052F;
+        position: fixed;
+        float: right;
+        flex-direction: column;
+       /* align-items: flex-start;
+        justify-content: flex-end;*/
+        top: 0;
+        left: 0;
+        z-index: 999;
+        visibility: hidden;
+    }
+    
+    .hero-section nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 0%;
+        padding-bottom: 0;
+    }
+    .hero-section nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+       
+    }
+    .hero-section nav ul li{
+        padding: 10px;
+        
+    }
+   
+}
+.ban-grid .content span{
+    font-size: 70px;
+    
+}
+.ban-grid .content p{
+    font-size: 25px;
+}
+.ban-grid .content h1{
+    left: 0;
+    font-size: 2.5rem;
+}
+.ban-grid .content p{
+    font-size: 1rem;
+}
+
+.ban-grid .content button{
+    padding: 15px 25px;
+    border-radius: 25px;    
+}
+.ban-grid .content .bnnnn-con-but{
+    margin-left: 5%;
+}
+
+
+.grow-section{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #06052F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.grow-section .grow-grid{
+    width: 85%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+
+.services-section{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    background-color: #06052F;
+    padding-top: 100px;
+}
+
+@media (max-width: 850px){
+    .imgggg{
+        display: none;
+
+    }
+    .grow-grid{
+        display: none;
+    }
+    .grow-section .grow-grid{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    .grow-section .grow-grid .imaggggg{
+        height: 300px;
+        
+    }
+    .ban-grid{
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .banner{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .ban-grid .content{
+        height: fit-content;
+        background-color: transparent;
+    }
+    .ban-grid .image{
+        height: fit-content;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .hero-section{
+       
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+    .services-section .ser-show-sect .ser-grid-sect{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .services-section .ser-show-sect1111 .ser-grid-sect1111{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .services-section .ser-show-sect .ser-grid-sect .services-icon-content{
+        margin-bottom: 20px;
+
+    }
+    .services-section .ser-show-sect1111 .ser-grid-sect1111 .services-icon-content{
+        margin-bottom: 20px;
+
+    }
+    
+    .review-section .review-content{
+        width: 85%;
+        gap: 100px;
+    }
+    .last-section{
+        height: 800px;
+    }
+    .ban-grid .content h1{
+        left: 0;
+        font-size: 2.5rem;
+    }
+    .ban-grid .content p{
+        font-size: 1rem;
+    }
+
+    .contacttt .contact-content{
+        width: 80%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap: 80px;
+    }
+
+    .ban-grid .content button{
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        
+    }
+    .ban-grid .content .bnnnn-con-but{
+        margin-left: 5%;
+        padding: 10px 20px;
+
+    }
+    .service-h1{
+        font-size: 2.5rem;
+    }
+    .service-p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .grow-section .grow-grid .heading{
+        font-size: 2.5rem;
+    }
+    
+    .grow-section .grow-grid .parag{
+        padding-top: 20px;
+    }
+    .ticket-grid{
+        width: 80%;
+    }
+    .rev-content h1{
+        font-size: 2.5rem;
+    }
+    .contact-content .contact-detail .hh1{
+        font-size: 2rem;
+    }
+    .akhri-section h1{
+        font-size: 2.5rem;
+    }
+    .akhri-section p{
+        font-size: 1rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 720px){
+    .inp{
+        width: 100%;
+       
+    }
+    .message{
+        width: 100%;
+    }
+    .contacttt .contact-content{
+        width: 90%;
+       
+    }
+    .div .headd{
+        font-size: 2rem;
+    }
+    .div .pppp{
+        font-size: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ban-grid .image{
+        height: 400px;
+        width: 100%;
+       
+    }
+    .ban-grid .image img{
+        width: 100%;
+        height: 100%;
+    }
+}
